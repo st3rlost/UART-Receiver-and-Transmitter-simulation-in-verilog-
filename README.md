@@ -39,17 +39,6 @@ UART/
 
 ---
 
-## ▶️ Running the Simulation
-
-1. Open **Vivado**.
-2. Create a new project and add all `.v` files from `sources_1/new`.
-3. Add `uart_tb.v` from `sim_1/new` as the **simulation source**.
-4. In **Flow Navigator → Simulation**, select **Run Behavioral Simulation**.
-5. Ensure `uart_tb` is set as the **top module** for simulation.
-6. View the waveforms (`clk`, `tx`, `rx`, `data_in`, `data_out`) in the **Vivado Waveform Viewer**.
-
----
-
 ## 🖥️ Testbench
 
 The provided testbench (`uart_tb.v`) generates:
@@ -65,7 +54,6 @@ The provided testbench (`uart_tb.v`) generates:
 
 * **Transmission (TX line showing start, data, and stop bits)**
 * **Reception (RX sampled and reconstructed data)**
-  *(Waveform screenshots can be added here after simulation)*
 
 ---
 
